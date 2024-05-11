@@ -148,14 +148,17 @@ body {
 img { 
     display: block;
 }
-.header {
+.top-bar {
     border-bottom: 1px solid #e7e9fc;;
 }
-.container {
+.div-container {
     display:flex;
 }
+.div-standards {
+    margin:0;
+    width:1150px;
+}
 .navigation {
-    width: 1158px;
-    margin: 0;
-    padding: 0 15;
+    display:flex;
+    align-items:center;
 }
