@@ -148,15 +148,15 @@ body {
 img { 
     display: block;
 }
+.body {
+    width:1158px;
+    margin:0
+}
 .top-bar {
     border-bottom: 1px solid #e7e9fc;;
 }
 .div-container {
     display:flex;
-}
-.div-standards {
-    margin:0;
-    width:1150px;
 }
 .navigation {
     display:flex;
