@@ -151,3 +151,8 @@ img {
 .header {
     border-bottom: 1px solid #e7e9fc;;
 }
+.header-container {
+    display:flex;
+    width: 1158px;
+    padding: 0 15;
+}
