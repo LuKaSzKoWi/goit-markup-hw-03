@@ -167,7 +167,7 @@ img {
 .page-logo {
     margin-right: 76px;
 }
-.navigation-list {
+.nav-list-1 {
     list-style-type: none;
     display: flex;
     gap: 40px
@@ -199,4 +199,15 @@ img {
 .section-two {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.nav-list-2 {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.nav-lis-2-item {
+    width: calc((100% - 72px) / 4);
+}
+.page-paragraph-two {
+    margin-bottom: 89px;
 }
