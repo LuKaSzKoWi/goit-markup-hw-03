@@ -152,10 +152,10 @@ img {
 .top-bar {
     border-bottom: 1px solid #e7e9fc;;
 }
-.container {
+.div-container {
     display:flex;
 }
-.div-container {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -195,4 +195,8 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+}
+.section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
