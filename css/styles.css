@@ -149,15 +149,18 @@ img {
     display: block;
 }
 .body {
-    width:1158px;
-    margin:0;
-    padding: 0 15px 0 15px;
+    
 }
 .top-bar {
     border-bottom: 1px solid #e7e9fc;;
 }
-.div-container .container {
+.div-container {
     display:flex;
+}
+.div-container .container {
+    width: 1158px;
+        margin: 0;
+        padding: 0 15px 0 15px;
 }
 .navigation {
     display:flex;
