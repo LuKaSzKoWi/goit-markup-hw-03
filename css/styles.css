@@ -171,10 +171,11 @@ img {
     display: flex;
     gap:40px;
 }
-.nav-list-1 {
+.nav-list-one {
     list-style-type: none;
-    
-    }
+    display: flex;
+    gap: 40px;
+}
 .first-link {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -202,12 +203,12 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.nav-list-2 {
+.nav-list-two {
     list-style-type: none;
     display: flex;
     gap: 24px;
 }
-.nav-lis-2-item {
+.nav-lis-two-item {
     width: calc((100% - 72px) / 4);
 }
 .page-title-two {
