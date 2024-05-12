@@ -155,7 +155,7 @@ img {
 .div-container {
     display:flex;
 }
-.div-container .container {
+.container {
     width: 1158px;
     margin: 0;
     padding: 0 15px 0 15px;
