@@ -208,12 +208,9 @@ img {
     display: flex;
     gap: 24px;
 }
-.nav-lis-two-item {
-    flex-basis: calc((100% - 72px) / 4);
+.page-paragraph-one {
+    flex-basis: calc((100%-72px)/4);
 }
 .page-title-two {
     margin-bottom: 8px;
-}
-.visually-hidden{
-    visibility: hidden;
 }
