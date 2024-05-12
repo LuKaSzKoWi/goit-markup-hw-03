@@ -167,3 +167,12 @@ img {
 .page-logo {
     margin-right: 76px;
 }
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px
+    
+}
+.navigation-list-item {
+    padding: 24px 0;
+}
