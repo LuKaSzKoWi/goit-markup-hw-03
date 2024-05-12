@@ -217,7 +217,6 @@ img {
     overflow: hidden;
 }
 .list-two {
-    list-style-type: none;
     display: flex;
     gap: 24px;
 }
