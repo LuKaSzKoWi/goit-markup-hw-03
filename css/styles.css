@@ -209,8 +209,8 @@ img {
     gap: 24px;
 }
 .nav-lis-two-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-3*24px)/4);
 }
 .page-title-two {
-    margin-bottom: 89px;
+    margin-bottom: 8px;
 }
