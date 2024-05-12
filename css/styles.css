@@ -222,6 +222,7 @@ img {
     overflow: hidden;
 }
 .list-two {
+    list-style-type: none;
     display: flex;
     gap: 24px;
 }
@@ -235,4 +236,16 @@ img {
 .section-three {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.page-title-three {
+    margin-bottom: 72px;
+}
+.list-three {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.image-list {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
