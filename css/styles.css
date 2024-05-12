@@ -208,8 +208,8 @@ img {
     display: flex;
     gap: 24px;
 }
-.page-paragraph-one {
-    flex-basis: calc((100%-72px)/4);
+.nav-list-two-item {
+    width: calc((100% - 72px) / 4);
 }
 .page-title-two {
     margin-bottom: 8px;
