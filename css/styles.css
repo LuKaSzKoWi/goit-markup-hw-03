@@ -177,3 +177,7 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
