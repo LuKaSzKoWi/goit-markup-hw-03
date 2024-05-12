@@ -150,6 +150,8 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* header */
+
 img { 
     display: block;
 }
@@ -163,8 +165,9 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
-}
+    padding-left: 15px;
+    padding-right: 15px;
+    }
 .navigation {
     display:flex;
     align-items:center;
@@ -190,6 +193,9 @@ img {
     display: flex;
     gap: 40px;
 }
+
+/* Section one */
+
 .section-one {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -203,7 +209,10 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
-}
+    }
+
+    /* Section two */
+
 .section-two {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -233,6 +242,8 @@ img {
     margin-bottom: 8px;
 }
 
+/* section three */
+
 .section-three {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -248,4 +259,14 @@ img {
 .image-list {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+.info-div {
+    padding: 32px 16px;
+}
+.page-title-four {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.page-paragraph-two {
+    text-align: center;
 }
