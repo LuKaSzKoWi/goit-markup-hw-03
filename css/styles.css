@@ -186,3 +186,13 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
 }
+.page-title {
+    max-width: 496px;
+}
+.page-button {
+    display: block;
+    min-width: 169px;
+    height: 56px
+    border: none;
+    border-radius: 4px;
+}
