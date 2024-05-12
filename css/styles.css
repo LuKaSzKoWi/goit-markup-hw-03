@@ -222,7 +222,7 @@ img {
     gap: 24px;
 }
 .list-two-item {
-    width:calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
 }
 .page-title-two {
     margin-bottom: 8px;
