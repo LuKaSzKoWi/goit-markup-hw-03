@@ -167,12 +167,14 @@ img {
 .page-logo {
     margin-right: 76px;
 }
+.menu-list {
+    display: flex;
+    gap:40px;
+}
 .nav-list-1 {
     list-style-type: none;
-    display: flex;
-    gap: 40px
     
-}
+    }
 .first-link {
     padding-top: 24px;
     padding-bottom: 24px;
