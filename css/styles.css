@@ -208,7 +208,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.nav-list-two-item {
+.list-two-item {
     width:calc((100%-72px)/4);
 }
 .page-title-two {
@@ -228,4 +228,3 @@ img {
         overflow: hidden;
     }
     
-}
