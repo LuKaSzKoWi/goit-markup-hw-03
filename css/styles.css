@@ -164,3 +164,6 @@ img {
     display:flex;
     align-items:center;
 }
+.page-logo {
+    margin-right: 76px;
+}
