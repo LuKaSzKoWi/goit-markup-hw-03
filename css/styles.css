@@ -301,3 +301,13 @@ img {
 .page-paragraph-three {
     margin-bottom: 8px;
 }
+.page-footer {
+    padding: 100px 0;
+}
+.page-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.page-paragraph-four {
+    max-width: 264px;
+}
