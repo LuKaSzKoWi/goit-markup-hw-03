@@ -264,7 +264,7 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .div-info {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .page-title-four {
     text-align: center;
@@ -301,6 +301,9 @@ img {
 .page-paragraph-three {
     margin-bottom: 8px;
 }
+
+/* Footer */
+
 .page-footer {
     padding: 100px 0;
 }
