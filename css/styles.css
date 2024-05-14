@@ -13,7 +13,6 @@ body {
 
   
 .page-logo {
-    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -53,11 +52,12 @@ body {
 .page-address {
     font-size: 16px;
     font-style: normal;
+    font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
 .address-link {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
@@ -199,7 +199,7 @@ img {
 }
 .div-container {
     display:flex;
-    gap: 40px;
+    gap: 332px;
     align-items: center;
 }
 .container {
@@ -208,14 +208,12 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     }
+
 .navigation {
-    display:flex;
-    align-items:center;
-    margin: auto;
+    display:flex; 
+    align-items: center;
 }
-.page-logo {
-    margin-right: 76px;
-}
+
 .menu-list {
     display: flex;
     gap:40px;
@@ -227,6 +225,7 @@ img {
     
 }
 .first-link {
+    display: inline-block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
