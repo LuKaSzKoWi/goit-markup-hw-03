@@ -201,9 +201,6 @@ img {
     display:flex;
     gap: 40px;
     align-items: center;
-    justify-content: center;
-    
-    
 }
 .container {
     width: 1158px;
