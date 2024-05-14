@@ -8,9 +8,12 @@ body {
     font-weight: 700;
     color: #434455;
     background-color: #ffffff;
+
 }
 
+  
 .page-logo {
+    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -18,10 +21,18 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-studio-top {
     color: #2e2f42;
+}
+.logo-studio-top:hover {
+    color: #404bbf;
+}
+.logo-studio-top:active {
+    text-decoration: underline;
+    color: #404bbf;;
 }
 
 .first-link {
@@ -29,6 +40,8 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.5em;
     color: #2e2f42;
+    text-decoration: none;
+    
 }
 .first-link:hover {
     color: #404bbf;
@@ -44,10 +57,11 @@ body {
     letter-spacing: 0.02em;
 }
 .address-link {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 .address-link:hover {
     color: #404bbf;
@@ -58,6 +72,7 @@ body {
 
 .section-one {
     background-color: #2e2f42;
+    
 }
 
 .page-title {
@@ -66,6 +81,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+   
 }
 
 .page-button {
@@ -94,6 +110,8 @@ body {
 .page-paragraph-one {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .section-three {
@@ -102,6 +120,7 @@ body {
 
 .page-title-three {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -122,16 +141,19 @@ body {
 
 .page-paragraph-two {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .page-paragraph-three {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .page-title-five {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -146,8 +168,19 @@ body {
 .logo-studio-bottom {
     color: #f4f4fd;
 }
+.logo-studio-bottom:hover {
+    color: #404bbf;
+}
+
+.logo-studio-botom:active {
+    text-decoration: underline;
+    color: #404bbf;
+    ;
+}
 
 .page-paragraph-four {
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
@@ -160,10 +193,17 @@ img {
 }
 
 .top-bar {
-    border-bottom: 1px solid #e7e9fc;;
+    border-bottom: 1px solid #e7e9fc;
+    
+    
 }
 .div-container {
     display:flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 .container {
     width: 1158px;
@@ -174,6 +214,7 @@ img {
 .navigation {
     display:flex;
     align-items:center;
+    margin: auto;
 }
 .page-logo {
     margin-right: 76px;
@@ -186,6 +227,7 @@ img {
     list-style-type: none;
     display: flex;
     gap: 40px;
+    
 }
 .first-link {
     padding-top: 24px;
@@ -205,13 +247,25 @@ img {
 }
 .page-title {
     max-width: 496px;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    margin-right: auto;
+    
 }
 .page-button {
-    display: block;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+    
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
     }
 
     /* Section two */
