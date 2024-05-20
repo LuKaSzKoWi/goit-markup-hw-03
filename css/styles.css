@@ -21,6 +21,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-right: 76px;
 }
 
 .logo-studio-top {
@@ -150,6 +152,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .page-title-five {
     font-size: 36px;
@@ -251,7 +254,7 @@ img {
     
 }
 .page-button {
-        display: flex;
+        display: block;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -347,19 +350,13 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.page-paragraph-three {
-    margin-bottom: 8px;
-}
 
 /* Footer */
 
 .page-footer {
     padding: 100px 0;
 }
-.page-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 .page-paragraph-four {
     max-width: 264px;
 }
